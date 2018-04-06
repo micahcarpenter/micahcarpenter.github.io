@@ -1,0 +1,46 @@
+/*
+ * CSS Page
+ * =================
+ * This page uses css to style your html. If you need help, go to the link below.
+ * https://developer.mozilla.org/en-US/docs/Web/CSS
+ */
+
+
+/* Structure */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.container {
+  /* Margin top and bottom, margin left and right */
+  margin: 10px auto;
+  width: 70%; /* Sets the width of container to 50% */
+  max-width: 800px; /* Makes sure the container isn't more than 800 pixels wide */
+}
+
+/* Style and Coloring */
+body {
+  background: #51FFCF;
+  color: #FF0097;
+  /*font-family: Arial;*/
+    font-family: 'Righteous', cursive;
+}
+
+nav a {
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+body h1 {
+    color: #FF5C00
+}
+
+body p {
+color: #FF5C00
+}
+
+img {
+    max-width: 100%;
+}
